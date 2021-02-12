@@ -1,2 +1,25 @@
-# solid-control
-EU Solid Control Home page
+# Solid-Control
+
+Solid-Control is a project funded by the European Union Next Generation Internet (NGI) Privacy Enhancing Technologies (PET) fund. From the [official page](https://nlnet.nl/project/SolidControl/):
+
+> Solid-Control aims to enhance Tim Berners-Lee's Social Linked Data Project (Solid) with Attribute-Based Access Control. By extending the Linked Data Platform (LDP) with WebID based authentication and Access Control Lists (ACL), Solid has enabled the emergence of new forms of Hyper-Apps. These apps can follow data from server to server, authenticate when needed and write to the user's Personal Online Data storage (Pod), creating a decentralised social web.
+
+> With relation-based access control (friend of a friend, business network, etc.), Solid can be a full alternative to centralised social networks. We also want to allow authentication based on Verifiable Claims such as age. Solid-Control will work on developing the needed logic, verify protocols, write prototype implementations and contribute to the Solid Auth Community groups, which are developing specs for standardisation.
+
+The project interacts on a number of different repositories on github and mailing lists. This repository collects the reports on the activity in the various forums.
+
+The main repositories regarding standard-settings are:
+
+* [Solid Authentication Panel](https://github.com/solid/authentication-panel) 
+* [Solid Authorization Panel](https://github.com/solid/authorization-panel)
+* [Solid Interoperatbility Panel](https://github.com/solid/data-interoperability-panel)
+* [Solid Specification](https://github.com/solid/specification/)
+
+
+The Code repositories are (this is may evolve) 
+
+* [Reactive-Solid](https://github.com/co-operating-systems/Reactive-SoLiD)
+* [Banana-RDF](https://github.com/banana-rdf)
+
+Reports for Milestones are available in the [milestones folder](milestones). 
+
