@@ -24,7 +24,7 @@ The Code repositories are (this is may evolve)
 * [Banana-RDF](https://github.com/banana-rdf)
 
 Reports for Milestones are available in the [milestones folder](milestones).
- * 05 Jan - 21 Feb  2021 - [Milestone M1](blob/main/milestones/M1/M1.md)
- * 22 Feb - 1 April 2021 - [Milestone M2](blob/main/milestones/M2/M2.md)
+ * 05 Jan - 21 Feb  2021 - [Milestone M1](milestones/M1/M1.md)
+ * 22 Feb - 1 April 2021 - [Milestone M2](milestones/M2/M2.md)
 
 
