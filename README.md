@@ -30,3 +30,4 @@ Reports for Milestones are available in the [milestones folder](milestones).
  * 12 June - 20 August 2021 - [Milestone M4](milestones/M4/M4.md)
  * 21 August 2021 - 21 Sept 2021 - [Milestone M6](milestones/M6/M6.md)
  * 21 Sept 2021 - 29 Oct 2021 - [Milestone M5](milestones/M5/M5.md)
+ * 30 Oct 2021 - 22 Dec 2021 - [Milestone M7](milestones/M7/M7.md)
