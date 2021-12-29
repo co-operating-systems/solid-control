@@ -23,6 +23,16 @@ The Code repositories are:
 * [Reactive-Solid](https://github.com/co-operating-systems/Reactive-SoLiD)
 * [Banana-RDF](https://github.com/banana-rdf)
 
+Additional Code repositories that were created along the way as their final location is still 
+to be decided:
+ 
+* [bblfish/httpSig](https://github.com/bblfish/httpSig) repository for Scala(JS) implementation of IETF "Signing HTTP Messages"
+* [bblfish/rdf.scala.js](https://github.com/bblfish/rdf.scala.js) Scala JS facade for RDF.js interfaces
+
+Other repositories being contributed to:
+* [typelevel/bobcats](https://github.com/bblfish/bobcats) Cryptographic library in Functional Scala(JS)
+
+
 Reports for Milestones are available in the [milestones folder](milestones).
  * 05 Jan - 21 Feb  2021 - [Milestone M1](milestones/M1/M1.md)
  * 22 Feb - 1 April 2021 - [Milestone M2](milestones/M2/M2.md)
