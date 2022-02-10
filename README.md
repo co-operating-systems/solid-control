@@ -10,6 +10,8 @@ Solid-Control is a project funded by the European Union Next Generation Internet
 
 The project interacts with several different repositories on GitHub and mailing lists. This repository collects the reports on the activity in the various forums.
 
+### Standards based work
+
 The main repositories regarding standard-settings are:
 
 * [Solid Authentication Panel](https://github.com/solid/authentication-panel) 
@@ -17,24 +19,38 @@ The main repositories regarding standard-settings are:
 * [Solid Interoperatbility Panel](https://github.com/solid/data-interoperability-panel)
 * [Solid Specification](https://github.com/solid/specification/)
 
+Each milestone points to weekly reports from the panels.
 
-The Code repositories are: 
+###  Code repositories and artifacts 
 
-* [Reactive-Solid](https://github.com/co-operating-systems/Reactive-SoLiD)
-* [Banana-RDF](https://github.com/banana-rdf)
+Every code repository will produce artifacts stores as snapshots on Sonatype's maven servers
+and after testing will be released to Maven Central. 
 
+* [Reactive-Solid](https://github.com/co-operating-systems/Reactive-SoLiD) Is the server implementation.
+* [Banana-RDF](https://github.com/banana-rdf) is an RDF library for Java and JavaScript in Scala. Artifacts are published in 
+  * sonatype for scala 2.13 (soon scala 3) [net/bblfish/rdf](https://oss.sonatype.org/content/repositories/snapshots/net/bblfish/rdf/)
+  * todo: publish final artifacts to Maven Central
+  
 Additional Code repositories that were created along the way as their final location is still 
 to be decided:
  
-* [bblfish/httpSig](https://github.com/bblfish/httpSig) repository for Scala(JS) implementation of IETF "Signing HTTP Messages"
-* [bblfish/rdf.scala.js](https://github.com/bblfish/rdf.scala.js) Scala JS facade for RDF.js interfaces
-* [bblfish/SolidCtrlApp](https://github.com/bblfish/SolidCtrlApp) client in browser code for Solid Authentication
+* [bblfish/httpSig](https://github.com/bblfish/httpSig) repository for Scala(JS) implementation of IETF "Signing HTTP Messages".Artifacts published in
+    * for Scala 3 on Sonatype [net/bblfish/crypto](https://oss.sonatype.org/content/repositories/snapshots/net/bblfish/crypto/)
+    * todo: publish to maven central
+* [bblfish/rdf.scala.js](https://github.com/bblfish/rdf.scala.js) Scala JS facade for RDF.js interfaces. 
+* [bblfish/SolidCtrlApp](https://github.com/bblfish/SolidCtrlApp) client in browser Authentication libraries
 
 Other repositories being contributed to:
-* [typelevel/bobcats](https://github.com/bblfish/bobcats) Cryptographic library in Functional Scala(JS)
+* [typelevel/bobcats](https://github.com/bblfish/bobcats) is a cryptographic library in Functional Scala(JS)
+  repository for Scala(JS) used by our implementation of IETF's "Signing HTTP Messages". Artifacts are published in
+    * for scala 2.12, 2.13, 3 on Sonatype in [net/bblfish/crypto](https://oss.sonatype.org/content/repositories/snapshots/net/bblfish/crypto/)
+    * maven central (todo)
 
+### Milestones
 
-Reports for Milestones are available in the [milestones folder](milestones).
+Reports for Milestones are available in the [milestones folder](milestones). 
+The milestones are numbered after the original template, but were not always done
+in the original estimated order.
  * 05 Jan - 21 Feb  2021 - [Milestone M1](milestones/M1/M1.md)
  * 22 Feb - 1 April 2021 - [Milestone M2](milestones/M2/M2.md)
  * 1 April - 11 June 2021 - [Milestone M3](milestones/M3/M3.md)
