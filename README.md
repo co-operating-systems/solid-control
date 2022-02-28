@@ -58,4 +58,4 @@ in the original estimated order.
  * 21 Sept 2021 - 29 Oct 2021 - [Milestone M5](milestones/M5/M5.md)
  * 30 Oct 2021 - 22 Dec 2021 - [Milestone M7](milestones/M7/M7.md)
  * 23 Dec 2021 - 24 Jan 2022 - [Milestone M9](milestones/M9/M9.md)
- * 25 Jan 2022 - 28 Feb 2022 - [Milestone M10](milesones/M10/M10.md)
+ * 25 Jan 2022 - 28 Feb 2022 - [Milestone M10](milestones/M10/M10.md)
