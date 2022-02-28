@@ -26,8 +26,8 @@ Each milestone points to weekly reports from the panels.
 Every code repository will produce artifacts stores as snapshots on Sonatype's maven servers
 and after testing will be released to Maven Central. 
 
-* [Reactive-Solid](https://github.com/co-operating-systems/Reactive-SoLiD) Is the server implementation.
-* [Banana-RDF](https://github.com/banana-rdf) is an RDF library for Java and JavaScript in Scala. Artifacts are published in 
+* [Reactive-Solid](https://github.com/co-operating-systems/Reactive-SoLiD) is the server implementation.
+* [Banana-RDF](https://github.com/banana-rdf/banana-rdf) is an RDF library for Java and JavaScript in Scala. The Scala-3 bracnh is available directly at [bblfish/banana-rdf](https://github.com/bblfish/banana-rdf/). Artifacts are published in 
   * sonatype for scala 2.13 (soon scala 3) [net/bblfish/rdf](https://oss.sonatype.org/content/repositories/snapshots/net/bblfish/rdf/)
   * todo: publish final artifacts to Maven Central
   
@@ -37,11 +37,11 @@ Additional Code repositories that were created along the way as their final loca
     * for Scala 3 on Sonatype [net/bblfish/crypto](https://oss.sonatype.org/content/repositories/snapshots/net/bblfish/crypto/)
     * todo: publish to maven central
 * [bblfish/rdf-model-js](https://github.com/bblfish/rdf.scala.js) Scala JS facade for RDF.js interfaces. This is published as artifact [rdf-model-js](https://oss.sonatype.org/content/repositories/snapshots/net/bblfish/rdf/rdf-model-js_sjs1_3/)
-* [bblfish/SolidCtrlApp](https://github.com/bblfish/SolidCtrlApp) client in browser Authentication libraries
+* [bblfish/SolidCtrlApp](https://github.com/bblfish/SolidCtrlApp) client in browser Authentication libraries.
+   * These are not yet published to sonatype or maven central
 
 Other repositories being contributed to:
-* [typelevel/bobcats](https://github.com/bblfish/bobcats) is a cryptographic library in Functional Scala(JS)
-  repository for Scala(JS) used by our implementation of IETF's "Signing HTTP Messages". Artifacts are published in
+* [bblfish/bobcats](https://github.com/bblfish/bobcats) is a cryptographic library in Functional Scala(JS) that has forked the typelevel bobcats cryptographic repository. It is used by our implementation of IETF's "Signing HTTP Messages". Artifacts are published in
     * for scala 2.12, 2.13, 3 on Sonatype in [net/bblfish/crypto](https://oss.sonatype.org/content/repositories/snapshots/net/bblfish/crypto/)
     * maven central (todo)
 
