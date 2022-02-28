@@ -31,13 +31,12 @@ and after testing will be released to Maven Central.
   * sonatype for scala 2.13 (soon scala 3) [net/bblfish/rdf](https://oss.sonatype.org/content/repositories/snapshots/net/bblfish/rdf/)
   * todo: publish final artifacts to Maven Central
   
-Additional Code repositories that were created along the way as their final location is still 
-to be decided:
+Additional Code repositories that were created along the way as their final location is still to be decided:
  
 * [bblfish/httpSig](https://github.com/bblfish/httpSig) repository for Scala(JS) implementation of IETF "Signing HTTP Messages".Artifacts published in
     * for Scala 3 on Sonatype [net/bblfish/crypto](https://oss.sonatype.org/content/repositories/snapshots/net/bblfish/crypto/)
     * todo: publish to maven central
-* [bblfish/rdf.scala.js](https://github.com/bblfish/rdf.scala.js) Scala JS facade for RDF.js interfaces. 
+* [bblfish/rdf-model-js](https://github.com/bblfish/rdf.scala.js) Scala JS facade for RDF.js interfaces. This is published as artifact [rdf-model-js](https://oss.sonatype.org/content/repositories/snapshots/net/bblfish/rdf/rdf-model-js_sjs1_3/)
 * [bblfish/SolidCtrlApp](https://github.com/bblfish/SolidCtrlApp) client in browser Authentication libraries
 
 Other repositories being contributed to:
@@ -59,3 +58,4 @@ in the original estimated order.
  * 21 Sept 2021 - 29 Oct 2021 - [Milestone M5](milestones/M5/M5.md)
  * 30 Oct 2021 - 22 Dec 2021 - [Milestone M7](milestones/M7/M7.md)
  * 23 Dec 2021 - 24 Jan 2022 - [Milestone M9](milestones/M9/M9.md)
+ * 25 Jan 2022 - 28 Feb 2022 - [Milestone M10](milesones/M10/M10.md)
