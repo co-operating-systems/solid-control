@@ -28,7 +28,7 @@ and after testing will be released to Maven Central.
 
 * [Reactive-Solid](https://github.com/co-operating-systems/Reactive-SoLiD) is the server implementation.
 * [Banana-RDF](https://github.com/banana-rdf/banana-rdf) is an RDF library for Java and JavaScript in Scala. The Scala-3 bracnh is available directly at [bblfish/banana-rdf](https://github.com/bblfish/banana-rdf/). Artifacts are published in 
-  * sonatype for scala 2.13 (soon scala 3) [net/bblfish/rdf](https://oss.sonatype.org/content/repositories/snapshots/net/bblfish/rdf/)
+  * sonatype for scala 2.13 and scala 3 in [net/bblfish/rdf](https://oss.sonatype.org/content/repositories/snapshots/net/bblfish/rdf/)
   * todo: publish final artifacts to Maven Central
   
 Additional Code repositories that were created along the way as their final location is still to be decided:
