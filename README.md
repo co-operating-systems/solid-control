@@ -27,13 +27,13 @@ Every code repository will produce artifacts stores as snapshots on Sonatype's m
 and after testing will be released to Maven Central. 
 
 * [Reactive-Solid](https://github.com/co-operating-systems/Reactive-SoLiD) is the server implementation.
-* [Banana-RDF](https://github.com/banana-rdf/banana-rdf) is an RDF library for Java and JavaScript in Scala. The Scala-3 bracnh is available directly at [bblfish/banana-rdf](https://github.com/bblfish/banana-rdf/). Artifacts are published in 
-  * sonatype for scala 2.13 and scala 3 in [net/bblfish/rdf](https://oss.sonatype.org/content/repositories/snapshots/net/bblfish/rdf/)
+* [Banana-RDF](https://github.com/banana-rdf/banana-rdf) is an RDF library for Java and JavaScript in Scala. The Scala-3 branch is available directly at [bblfish/banana-rdf](https://github.com/bblfish/banana-rdf/). Artifacts are published in 
+  * fir scala 2.13 and scala 3 in sonatype [net/bblfish/rdf](https://oss.sonatype.org/content/repositories/snapshots/net/bblfish/rdf/)
   * todo: publish final artifacts to Maven Central
   
 Additional Code repositories that were created along the way as their final location is still to be decided:
  
-* [bblfish/httpSig](https://github.com/bblfish/httpSig) repository for Scala(JS) implementation of IETF "Signing HTTP Messages".Artifacts published in
+* [bblfish/httpSig](https://github.com/bblfish/httpSig) repository for Scala(JS) implementation of IETF "Signing HTTP Messages". Artifacts published in
     * for Scala 3 on Sonatype [net/bblfish/crypto](https://oss.sonatype.org/content/repositories/snapshots/net/bblfish/crypto/)
     * todo: publish to maven central
 * [bblfish/rdf-model-js](https://github.com/bblfish/rdf.scala.js) Scala JS facade for RDF.js interfaces. This is published as artifact [rdf-model-js](https://oss.sonatype.org/content/repositories/snapshots/net/bblfish/rdf/rdf-model-js_sjs1_3/)
@@ -41,7 +41,7 @@ Additional Code repositories that were created along the way as their final loca
    * These are not yet published to sonatype or maven central
 
 Other repositories being contributed to:
-* [bblfish/bobcats](https://github.com/bblfish/bobcats) is a cryptographic library in Functional Scala(JS) that has forked the typelevel bobcats cryptographic repository. It is used by our implementation of IETF's "Signing HTTP Messages". Artifacts are published in
+* [bblfish/bobcats](https://github.com/bblfish/bobcats) is a cryptographic library in Functional Scala(JS) that has forked the typelevel bobcats cryptographic repository. It is used by our implementation of IETF's "Signing HTTP Messages". Artifacts are published
     * for scala 2.12, 2.13, 3 on Sonatype in [net/bblfish/crypto](https://oss.sonatype.org/content/repositories/snapshots/net/bblfish/crypto/)
     * maven central (todo)
 
@@ -49,7 +49,7 @@ Other repositories being contributed to:
 
 Reports for Milestones are available in the [milestones folder](milestones). 
 The milestones are numbered after the original template, but were not always done
-in the original estimated order.
+in the estimated order.
  * 05 Jan - 21 Feb  2021 - [Milestone M1](milestones/M1/M1.md)
  * 22 Feb - 1 April 2021 - [Milestone M2](milestones/M2/M2.md)
  * 1 April - 11 June 2021 - [Milestone M3](milestones/M3/M3.md)
