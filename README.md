@@ -1,6 +1,8 @@
-# Solid-Control
+# Solid-Control and Solid Wallet
 
-Solid-Control is a project funded by the European Union Next Generation Internet (NGI) Privacy and Trust Enhancing Technologies (PET) fund. From the [official page](https://nlnet.nl/project/SolidControl/):
+## Solid Control (2021-2022)
+
+Solid-Control was a project funded by the European Union Next Generation Internet (NGI) Privacy and Trust Enhancing Technologies (PET) fund. From the [official nlnet page](https://nlnet.nl/project/SolidControl/):
 
 > Solid-Control aims to enhance Tim Berners-Lee's Social Linked Data Project (Solid) with Attribute-Based Access Control. 
 
@@ -9,6 +11,15 @@ Solid-Control is a project funded by the European Union Next Generation Internet
 > With relation-based access control (friend of a friend, business network, etc.), Solid can be a full alternative to centralized social networks. We also want to allow authentication based on Verifiable Claims such as age. Solid-Control will work on developing the needed logic, verify protocols, write prototype implementations and contribute to the Solid Auth Community groups, which are developing specs for standardization.
 
 The project interacts with several different repositories on GitHub and mailing lists. This repository collects the reports on the activity in the various forums.
+
+## Solid Wallet (2022-2023)
+
+Solid Wallet continues the Solid-Control project, and is funded by NGI Assure. From the [official nlnet page](https://nlnet.nl/project/SolidWallet/index.html):
+
+> *Authorization reasoning, rule-based controls and fluid integration for Solid*
+
+> Solid Apps display information collected by following linked data across the World Wide Web, writing changes to Solid Personal Online Data Stores (PODs). Following links can land an App on a protected resource somewhere on the Web, accessible only to a select group of actors specified in an associated Web Access Control Resource. Solid Wallet aims to build core libraries to reason over Solid Access Control Rules, limit access to what clients can request, publish keys and sign transactions. The same libraries will also be useable by servers to verify such claims. Finally, we will use these libraries to build a flexible prototype Wallet for Solid apps that run in the browser or server.
+
 
 ### Standards based work
 
