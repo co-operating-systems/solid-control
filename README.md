@@ -45,11 +45,13 @@ Other repositories being contributed to:
     * for scala 2.12, 2.13, 3 on Sonatype in [net/bblfish/crypto](https://oss.sonatype.org/content/repositories/snapshots/net/bblfish/crypto/)
     * maven central (todo)
 
-### Milestones
+## Milestones 
+
+### For Solid-Control
 
 Reports for Milestones are available in the [milestones folder](milestones). 
-The milestones are numbered after the original template, but were not always done
-in the estimated order.
+The milestones are numbered after the original template, but were not always done in the estimated order.
+
  * 05 Jan - 21 Feb  2021 - [Milestone M1](milestones/M1/M1.md)
  * 22 Feb - 1 April 2021 - [Milestone M2](milestones/M2/M2.md)
  * 1 April - 11 June 2021 - [Milestone M3](milestones/M3/M3.md)
@@ -59,4 +61,8 @@ in the estimated order.
  * 30 Oct 2021 - 22 Dec 2021 - [Milestone M7](milestones/M7/M7.md)
  * 23 Dec 2021 - 24 Jan 2022 - [Milestone M9](milestones/M9/M9.md)
  * 25 Jan 2022 - 28 Feb 2022 - [Milestone M10](milestones/M10/M10.md)
- * 1 March 2022 - `...`  - [Milestone M11](milestones/M11/M11.md)
+ * 1 March 2022 - 30 Oct 2022 - [Milestone M11](milestones/M11/M11.md)
+
+### for Solid Wallet 
+
+ * Nov 01 - Dec 30 2022 - [Milestone W1](milestones/W1/W1.md)
