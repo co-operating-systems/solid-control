@@ -78,3 +78,4 @@ The milestones are numbered after the original template, but were not always don
 
  * Nov 01 - Dec 30 2022 - [Milestone W1](milestones/W1/W1.md)
  * April 01 - June 6 2023 - [Milestone W2](milestones/W2/W2.md)
+ * June 07 - August 24 2023 - [Milestone W3](milestones/W3/README.md)
