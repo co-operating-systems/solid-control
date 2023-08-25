@@ -3,14 +3,13 @@
 This Milestone documents interesting access control use cases for Solid. The aim is to see how these rules could be written out as an extension to [Solid WAC](https://solidproject.org/TR/wac), and the reasoning that would be needed by a client to work out if it can access a resource according to those rules and a guard to verify a proof sent to it. 
 
 The work consisted in 
-
-1. Documenting decentralized use cases of access control (from single ACLs to foaf networks to Verifiable Credential based ones, delegation, etc...)
+1. Documenting decentralized use cases of access control (from single ACLs to foaf networks to Verifiable credential-based ones, delegation, etc.)
 2. Extensions to Solid Web Access Control needed to implement those use cases
 3. Describing in natural language the type of reasoning the client needs to follow to know it could satisfy the ACL rules 
 4. Describe in natural language the type of reasoning the server needs to follow if given proof by the client
 5. Writing up summaries of key Access Control Logics for decentralized access control as the concepts used there became used in the examples to formalize the reasoning
 6. Start mapping the "says" logic to N3
-7. Interact with W3C N3, RDF Surfaces and Verifiable Credentials Community Groups to point them to these use cases as a way to make sure they take these into account
+7. Interact with W3C N3, RDF Surfaces, and Verifiable Credentials Community Groups, EYE N3 reasoner, for questions and to point them to these use cases
 
 This work is ongoing.
 But it is already proving useful in conversations with various people around the Solid ecosystem and beyond.
