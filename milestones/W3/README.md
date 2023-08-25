@@ -2,23 +2,33 @@
 
 This Milestone documents interesting access control use cases for Solid. The aim is to see how these rules could be written out as an extension to [Solid WAC](https://solidproject.org/TR/wac), and the reasoning that would be needed by a client to work out if it can access a resource according to those rules and a guard to verify a proof sent to it. 
 
-The use cases are all decentralised ones involving linked data, which is how this project differs from attempts to resolve this problem previously.
-At the same time, the idea is to extend well-known access control logics to the Web, and to test those against the use cases.
+The work consisted in 
+
+1. Documenting decentralized use cases of access control (from single ACLs to foaf networks to Verifiable Credential based ones, delegation, etc...)
+2. Extensions to Solid Web Access Control needed to implement those use cases
+3. Describing in natural language the type of reasoning the client needs to follow to know it could satisfy the ACL rules 
+4. Describe in natural language the type of reasoning the server needs to follow if given proof by the client
+5. Writing up summaries of key Access Control Logics for decentralized access control as the concepts used there became used in the examples to formalize the reasoning
+6. Start mapping the "says" logic to N3
+7. Interact with W3C N3, RDF Surfaces and Verifiable Credentials Community Groups to point them to these use cases as a way to make sure they take these into account
+
+This work is ongoing.
+But it is already proving useful in conversations with various people around the Solid ecosystem and beyond.
 
 The aim is also to use these to develop mini test-cases that we can then deploy on the solid server to test the Wallet.
 
 I put together [a repository](https://github.com/co-operating-systems/PhD/) collecting both 
-* information about the Access Control Logics for decentralised systems
-* a set of use cases to test those Access Control Logics
+1. information about the Access Control Logics for decentralised systems
+2. a set of use cases to test and stretch those Access Control Logics
 
 The research led me to start working more closely with the [N3 Community Group](https://github.com/w3c/N3/), the [RDF Surfaces CG](https://github.com/w3c-cg/rdfsurfaces) and the [W3C Verifiable Credentials](https://github.com/w3c/vc-data-model/).
 
 
 ## 1. Logics
 
-This section collects research on Logics for access control. The main logic is the "says" logic developed by Abadi, Needham, Burrows in the 1990s with some very interesting updates in 2009 by Deepak Garg. Furthermore in 2009 Dan Connolly also worked on mapping these to N3 at the W3C TAG. See [discussion in N3 issue 203](https://github.com/w3c/N3/issues/203), which lead to me writing up an argument on ACLsDont.
+This section collects research on Logics for access control. The main logic is the "says" logic developed by Abadi, Needham, Burrows in the 1990s with some very interesting updates in 2009 by Deepak Garg. Furthermore in 2009 Dan Connolly also worked on mapping these to N3 at the W3C TAG. See [discussion in N3 issue 203](https://github.com/w3c/N3/issues/203), which led to me writing up an argument on ACLsDont.
 
-  * [RelBac](https://github.com/co-operating-systems/PhD/blob/main/Logic/RelBac.md) - a description logic for access control based on simple relations
+  * [RelBac](https://github.com/co-operating-systems/PhD/blob/main/Logic/RelBac.md) - a description logic for access control based on simple relations designed for web access control
   * [Says](https://github.com/co-operating-systems/PhD/blob/main/Logic/Says.md) - the basic modal logics of "Saying that" started in the early 1990s by Burrows, Abadi, Needham, Garg and others. 
   * [ACL](https://github.com/co-operating-systems/PhD/blob/main/Logic/ACL.md) - from Access Control Lists to Access Control Logics
   * [ACLsDon't](https://github.com/co-operating-systems/PhD/blob/main/Logic/ACLsDont.md) - an analysis of the argument against ACLs and in favor of capabilities. 
@@ -42,9 +52,9 @@ A few years ago we started on [a comparison with ACP](https://github.com/solid/a
   This last one brings up an unavoidable scale problem: assume each person has 100 non-overlapping friends, we would end up creating a social network 100*100*100=1 000 000=1 million people large
 * [Client Auth](https://github.com/co-operating-systems/PhD/blob/main/UseCases/ClientAuth.md) looks at the problem of limiting Apps.
    We distinguish two types of limitations from the client side and the server side. 
-   We show how these map to ABNL logic.
+   We show how these map to `says` logic.
 * [Delegation](https://github.com/co-operating-systems/PhD/blob/main/UseCases/Delegation.md) looks at Delegation use cases
-* [Deepak Garg's Phd](https://github.com/co-operating-systems/PhD/blob/main/UseCases/DeepakGargPhd.md) Deepak Garg's 2009 PhD built a detailed extension of the says logic for access control purposes with full proof-procedures. We want to see how far we can adapt those to the Web.
+* [Deepak Garg's Phd](https://github.com/co-operating-systems/PhD/blob/main/UseCases/DeepakGargPhd.md) Deepak Garg's 2009 PhD built a detailed extension of the says logic for access control purposes with full proof-procedures. We want to see how far we can adapt those to the Web. (very much work in progress)
 * [Verifiable Credentials](https://github.com/co-operating-systems/PhD/blob/main/UseCases/VerifiableCredentials.md) looks at how one can use W3C Verifiable Credentials standards for access control
 * [WoN.md](https://github.com/co-operating-systems/PhD/blob/main/UseCases/WoN.md) the certificate-based examples will often require a Web of Nations infrastructure. We look at examples of these.
 
