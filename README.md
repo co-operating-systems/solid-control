@@ -63,16 +63,16 @@ Other repositories being contributed to:
 Reports for Milestones are available in the [milestones folder](milestones). 
 The milestones are numbered after the original template, but were not always done in the estimated order.
 
- * 05 Jan - 21 Feb  2021 - [Milestone M1](milestones/M1/M1.md)
- * 22 Feb - 1 April 2021 - [Milestone M2](milestones/M2/M2.md)
- * 1 April - 11 June 2021 - [Milestone M3](milestones/M3/M3.md)
- * 12 June - 20 August 2021 - [Milestone M4](milestones/M4/M4.md)
- * 21 August 2021 - 21 Sept 2021 - [Milestone M6](milestones/M6/M6.md)
- * 21 Sept 2021 - 29 Oct 2021 - [Milestone M5](milestones/M5/M5.md)
- * 30 Oct 2021 - 22 Dec 2021 - [Milestone M7](milestones/M7/M7.md)
- * 23 Dec 2021 - 24 Jan 2022 - [Milestone M9](milestones/M9/M9.md)
- * 25 Jan 2022 - 28 Feb 2022 - [Milestone M10](milestones/M10/M10.md)
- * 1 March 2022 - 30 Oct 2022 - [Milestone M11](milestones/M11/M11.md)
+ * 05 Jan - 21 Feb  2021 - [M1: Initial Research](milestones/M1/M1.md)
+ * 22 Feb - 1 April 2021 - [M2: Basic LDP implementation](milestones/M2/M2.md)
+ * 1 April - 11 June 2021 - [M3: LDP with HTTP Signatures](milestones/M3/M3.md)
+ * 12 June - 20 August 2021 - [M4: WAC, WAC+, ACP](milestones/M4/M4.md)
+ * 21 August 2021 - 21 Sept 2021 - [M6: banana-rdf for Scala3](milestones/M6/M6.md)
+ * 21 Sept 2021 - 29 Oct 2021 - [M5: ACP](milestones/M5/M5.md)
+ * 30 Oct 2021 - 22 Dec 2021 - [M7: SolidCtrl App](milestones/M7/M7.md)
+ * 23 Dec 2021 - 24 Jan 2022 - [M9: Signing Http Messages](milestones/M9/M9.md)
+ * 25 Jan 2022 - 28 Feb 2022 - [M10: Make projects release ready](milestones/M10/M10.md)
+ * 1 March 2022 - 30 Oct 2022 - [M11: Solid server with HttpSig demo](milestones/M11/M11.md)
 
 ### for Solid Wallet 
 
